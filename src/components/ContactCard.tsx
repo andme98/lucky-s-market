@@ -6,7 +6,8 @@ const ContactCard = () => {
     return (
         <div className="card-contact">
             <h2 className="h3-contact">CONTACTO</h2>
-            <FontAwesomeIcon style={{marginTop:'20px', color:'azure', fontSize:'30px'}} icon={faPhone} size='xs'/>        
+                <hr></hr>
+                <FontAwesomeIcon style={{marginTop:'20px', color:'azure', fontSize:'30px'}} icon={faPhone} size='xs'/>        
                 <h3 className="soft">- Teléfono Fijo -</h3>
                 <h5 className='soft'>(01) 611 - 9840</h5>
                 <h5 className='soft'>(01) 505 - 0505</h5>
