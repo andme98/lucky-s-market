@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('vegetables.jpg');
+  background-size: cover;
 }
 
 code {
@@ -79,13 +80,14 @@ code {
 .footer {
   color: azure;
   background-color: teal;
-  position: relative;
   height: 60px;
+  position: absolute;
+  padding-top: 0px;
+  width: 100%;
+  margin-top: 20px;
 }
 
-.hfooter {
-  padding: 20px;
-}
+
 
 .h3-contact {
   color: azure;
@@ -135,10 +137,44 @@ code {
 
 .register-card {
   background-color: azure;
-  opacity: 0.9;
+  opacity: 0.95;
   margin-left: 20%;
   margin-right: 20%;
   height: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: inline-block;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.register-image {
+  width: 100%;
+}
+
+button {
+  opacity: 1;
+  background-color: rgb(26, 109, 67);
+  border: none;
+  color: azure;
+  font-size: larger;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+input {
+  display: block;
+  width: 300px;
+  border-radius: 2px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  height: 30px;
+  margin-top: 9px;
 }
 
 @media (max-width: 950px) {
@@ -172,6 +208,38 @@ code {
     
   }
 
+  .register-card {
+    background-color: azure;
+    opacity: 0.95;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  input {
+    display: block;
+    width: 160px;
+    border-radius: 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    height: 25px;
+    margin-top: 9px;
+  }
+
+  button {
+    opacity: 1;
+    background-color: rgb(26, 109, 67);
+    border: none;
+    color: azure;
+    font-size: small;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
   .titleNavbar {
     color: azure; 
     display: inline-block;
@@ -179,3 +247,4 @@ code {
     text-decoration: none;
   }
 }
+

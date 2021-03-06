@@ -5,6 +5,7 @@ const Register = () => {
     return (
         <div>
             <RegisterCard />
+            <img className="register-image" src="../girl-customer.jpg" alt="girl-customer"/>
         </div>
     )
 }
