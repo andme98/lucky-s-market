@@ -16,12 +16,14 @@ code {
 }
 
 .card {
+  background-image: url('vegetables-group-two.png');
+  background-size: cover;
   background-color: azure;
   margin-bottom: 10px;
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 10px;
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 .card-catalogue {
@@ -43,7 +45,7 @@ code {
   background-color: bisque;
   width: 300px;
   max-width: 500px;
-  opacity: 1;
+  opacity: 0.9;
   padding:10px; 
   margin-left: 50%;
   margin-right: 20%;
@@ -139,7 +141,7 @@ code {
   height: 500px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   
 
   h1 {
@@ -162,7 +164,7 @@ code {
     background-color: bisque;
     width: 150px;
     max-width: 500px;
-    opacity: 1;
+    opacity: 0.9;
     padding:10px; 
     margin-left: 50%;
     margin-right: 20%;

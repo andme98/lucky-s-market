@@ -1,11 +1,12 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons'
+import { url } from 'inspector'
 
 const Presentation = () => {
     return (
         <div>
-            <div className="card" style={{paddingTop:'20px', paddingBottom:'20px'}}> 
+            <div className="card" style={{paddingTop:'20px', paddingBottom:'20px',}}> 
                 <div className="text-card">
                     <h1 className="h1-card">Comodidad y calidad a tu disposición</h1>
                     <h3 className="h3-card">Servicio de ecommerce en tiempo récord.</h3>
