@@ -21,7 +21,7 @@ code {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 10px;
-  opacity: 85%;
+  opacity: 0.85;
 }
 
 .card-catalogue {
@@ -43,7 +43,7 @@ code {
   background-color: bisque;
   width: 300px;
   max-width: 500px;
-  opacity: 100%;
+  opacity: 1;
   padding:10px; 
   margin-left: 50%;
   margin-right: 20%;
@@ -119,12 +119,12 @@ code {
 }
 
 .bg-image {
-  opacity: 85%;
+  opacity: 0.85;
 }
 
 .card-contact {
   padding: 20px;
-  opacity: 80%;
+  opacity: 0.8;
   background-color: black;
   margin: 20px;
   margin-left: 20%;
@@ -133,7 +133,7 @@ code {
 
 .register-card {
   background-color: azure;
-  opacity: 90%;
+  opacity: 0.9;
   margin-left: 20%;
   margin-right: 20%;
   height: 500px;
@@ -162,7 +162,7 @@ code {
     background-color: bisque;
     width: 150px;
     max-width: 500px;
-    opacity: 100%;
+    opacity: 1;
     padding:10px; 
     margin-left: 50%;
     margin-right: 20%;
