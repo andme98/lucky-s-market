@@ -5,6 +5,7 @@ const Catalogue = () => {
     return (
         <div>
             <CardCatalogue />
+            <img className="catalogue-img" src="../perro-bebito.png" alt="lucky"/>
         </div>
     )
 }

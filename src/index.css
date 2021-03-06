@@ -36,6 +36,12 @@ code {
   padding-right: 5%;  
 }
 
+.text-catalogue {
+  font-family: 'Livvic';
+  padding-bottom: 6%;
+  padding-top: 6%;
+}
+
 .card-img {
   opacity: 100%;
   width: 10%;
@@ -87,7 +93,9 @@ code {
   margin-top: 20px;
 }
 
-
+.catalogue-img {
+  width: 400px;
+}
 
 .h3-contact {
   color: azure;
