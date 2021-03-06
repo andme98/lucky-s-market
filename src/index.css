@@ -169,4 +169,11 @@ code {
     position: relative;
     
   }
+
+  .titleNavbar {
+    color: azure; 
+    display: inline-block;
+    padding-right: 10%;
+    text-decoration: none;
+  }
 }
