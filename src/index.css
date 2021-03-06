@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,166 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./vegetables.jpg");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card {
+  background-color: azure;
+  margin-bottom: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+  opacity: 85%;
+}
+
+.card-catalogue {
+  background-color: azure;
+  opacity: 90%;
+  margin-left: 20%;
+  margin-right: 20%;  
+  padding-left: 5%;
+  padding-right: 5%;  
+}
+
+.card-img {
+  opacity: 100%;
+  width: 10%;
+  height: 30%;
+}
+
+.text-card {
+  background-color: bisque;
+  width: 300px;
+  max-width: 500px;
+  opacity: 100%;
+  padding:10px; 
+  margin-left: 50%;
+  margin-right: 20%;
+  position: relative;
+  
+}
+
+.h1-card {
+  text-align: right;
+}
+
+.h3-card {
+  text-align: right;
+}
+
+.h5-card {
+  text-align: right;
+}
+
+.img-about {
+  width: 100%;
+}
+
+.itemNavbar {
+  color: bisque;
+  display: inline-block;
+  padding: 1%;
+  text-decoration: none;
+}
+
+.footer {
+  color: azure;
+  background-color: teal;
+  position: relative;
+  height: 60px;
+}
+
+.hfooter {
+  padding: 20px;
+}
+
+.h3-contact {
+  color: azure;
+}
+
+.soft {
+  color: azure;
+}
+
+.titleNavbar {
+  color: azure; 
+  display: inline-block;
+  padding-right: 20%;
+  text-decoration: none;
+}
+
+.navBar {
+  background-color: teal;
+  box-shadow: inset 0px 6px 6px rgba(15, 54, 54, 0.514);
+  
+}
+
+.main-paragraph {
+  opacity: 80%;
+  color: azure;
+  background-color: black;
+  font-family: 'Livvic', sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+}
+
+.bg-image {
+  opacity: 85%;
+}
+
+.card-contact {
+  padding: 20px;
+  opacity: 80%;
+  background-color: black;
+  margin: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.register-card {
+  background-color: azure;
+  opacity: 90%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 500px;
+}
+
+@media (max-width: 900px) {
+  
+
+  h1 {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 13px;
+  }
+
+  h5 {
+    font-size: 9px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .text-card {
+    background-color: bisque;
+    width: 150px;
+    max-width: 500px;
+    opacity: 100%;
+    padding:10px; 
+    margin-left: 50%;
+    margin-right: 20%;
+    position: relative;
+    
+  }
 }
