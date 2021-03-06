@@ -91,10 +91,13 @@ code {
 
 .h3-contact {
   color: azure;
+  font-family: 'Livvic', sans-serif;
+  font-weight: bolder;
 }
 
 .soft {
   color: azure;
+  font-family: 'Livvic', sans-serif;
 }
 
 .titleNavbar {
