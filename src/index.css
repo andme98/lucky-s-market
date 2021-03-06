@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  background-image: url('vegetables.jpg');
 }
 
 code {
@@ -107,7 +107,7 @@ code {
 }
 
 .main-paragraph {
-  opacity: 80%;
+  opacity: 0.8;
   color: azure;
   background-color: black;
   font-family: 'Livvic', sans-serif;
