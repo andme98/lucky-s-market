@@ -10,7 +10,6 @@ import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import Catalogue from './pages/Catalogue';
 import Register from './pages/Register';
-import MainPage from './pages/MainPage';
 import AboutUs from './pages/AboutUs';
 
 
