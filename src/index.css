@@ -16,6 +16,12 @@ code {
     monospace;
 }
 
+.catalogue {
+  background-color: rgba(15, 54, 54, 0.514);
+  width: 100%;
+  height: 700px;
+}
+
 .card {
   background-image: url('vegetables-group-two.png');
   background-size: cover;
