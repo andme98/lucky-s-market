@@ -190,13 +190,14 @@ input {
   border-left: none;
   border-right: none;
   border-top: none;
+  font-family: 'Livvic', sans-serif;
   height: 30px;
   margin-top: 9px;
+  padding-left: 8px;
 }
 
 @media (max-width: 950px) {
   
-
   h1 {
     font-size: 15px;
   }
